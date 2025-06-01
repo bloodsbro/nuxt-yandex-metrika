@@ -77,8 +77,12 @@ export default defineNuxtPlugin({
 				if (!ready) {
 					return;
 				}
+
+				const isFirstLoad = from.fullPath === to.fullPath || !from.name;
+				const referer = isFirstLoad ? document.referrer : from.fullPath;
+
 				yandexMetrika.hit(to.fullPath, {
-					referer: from.fullPath
+					referer
 				});
 			});
 		}
