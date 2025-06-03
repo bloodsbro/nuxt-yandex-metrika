@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.4.0
+
+[compare changes](https://github.com/bloodsbro/nuxt-yandex-metrika/compare/v1.3.0...v1.4.0)
+
+### 🚀 Enhancements
+
+- Update repository and author information ([6b765c4](https://github.com/bloodsbro/nuxt-yandex-metrika/commit/6b765c4))
+
+### ❤️ Contributors
+
+- Bloodsbro <vanka2929@gmail.com>
+
 ## v1.3.0
 
 
